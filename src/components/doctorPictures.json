@@ -1,0 +1,81 @@
+[
+	{
+		"profilePicture": "assets/pictures/saschafirtina.jpg",
+		"username": "saschafirtina",
+		"name": "Sascha Firtina",
+		"biography": "📍TravelinBerlin",
+		"followers": 13838,
+		"following": 361,
+		"userId": 1533777427,
+		"numPosts": 149,
+		"website": "",
+		"lastPost": "09/08/2018",
+		"email": "No email in bio"
+	},
+	{
+		"profilePicture": "assets/pictures/marin.ivankovic.jpg",
+		"username": "marin.ivankovic",
+		"name": "Marin",
+		"biography": "📍living in Berlin:",
+		"followers": 26561,
+		"following": 454,
+		"userId": 274836879,
+		"numPosts": 808,
+		"website": "",
+		"lastPost": "01/09/2018",
+		"email": "No email in bio"
+	},
+	{
+		"profilePicture": "assets/pictures/bluemaex.jpg",
+		"username": "bluemaex",
+		"name": "Max",
+		"biography": "📍kampala Uganda",
+		"followers": 261,
+		"following": 229,
+		"userId": 34943222,
+		"numPosts": 1308,
+		"website": "",
+		"lastPost": "29/08/2018",
+		"email": "No email in bio"
+	},
+	{
+		"profilePicture": "assets/pictures/kanyewest.jpg",
+		"username": "kanyewest",
+		"name": "ye",
+		"biography": "📍Kinshasa Congo",
+		"followers": 3984285,
+		"following": 1,
+		"userId": 3949224551,
+		"numPosts": 188,
+		"website": "",
+		"lastPost": "04/10/2018",
+		"email": "No email in bio"
+	},
+	{
+		"profilePicture": "assets/pictures/beyonce.jpg",
+		"username": "beyonce",
+		"name": "Beyoncé",
+		"biography": "📍Accra Ghana",
+		"followers": 118448693,
+		"following": 0,
+		"userId": 247944034,
+		"numPosts": 1679,
+		"website": "http://www.BEYONCE.com/",
+		"lastPost": "03/10/2018",
+		"email": "No email in bio"
+	},
+	
+	{
+		"profilePicture": "assets/pictures/bluemaex.jpg",
+		"username": "bluemaex-copy2",
+		"name": "Max",
+		"biography": "📍Yaunde Camerun",
+		"followers": 261,
+		"following": 229,
+		"userId": 349432222,
+		"numPosts": 1308,
+		"website": "",
+		"lastPost": "29/08/2018",
+		"email": "No email in bio"
+	}
+]

@@ -1,40 +1,8 @@
 import React from 'react'
 import './DoctorFind.css';
+import Data from "./doctorPictures.json";
 
-const DoctorFind: React.FC =() =>{
-    const doctors = [
-        {
-            name:'Jonathan',
-            age:46,
-            designation:'Sofware Engireer'
-        },
-        {
-            name:'Kalisa',
-            age:28,
-            designation:'Sofware Engireer'
-        },
-        {
-            name:'Amri',
-            age:25,
-            designation:'Sofware Engireer'
-        },
-        {
-            name:'Roger',
-            age:39,
-            designation:'Sofware Engireer'
-        },
-        {
-            name:'Clement',
-            age:26,
-            designation:'Sofware Engireer'
-        },
-        {
-            name:'Roger',
-            age:39,
-            designation:'Sofware Engireer'
-        }
-    ]
-    const [doctorList, setDoctorList] = React.useState(doctors);  
+const DoctorFind: React.FC =() =>{ 
     const [text, setText] = React.useState('');
   return (
       <div className='body'>
@@ -58,11 +26,33 @@ const DoctorFind: React.FC =() =>{
     </div>
     <div className='body1'>
     <div className='item_grid'>
-        {doctorList?.length>0 && doctorList?.map(doctor =>{
+        {Data?.length>0 && Data?.map(doctor =>{
              return(
-                 <div>
-                 <div className='body_item'>
+                 
+                 <div className='lign_bo'>
+                 <div className=''>
+                     
+                     <div className='body_item'>
+                     <div className='img_item'>
+                     <img src={doctor.profilePicture} alt="profile"/>
+                     </div>
+                     <div className='text_item'>
                      <h3>Nmae: {doctor?.name}</h3>
+                     <div className='para_item'>
+                         <div>
+                            <p>{doctor.biography}</p>
+                            <p>Wainut Creek</p>  
+                         </div>
+                            <button>Request Appointment</button>
+                     </div>
+                     <div className='info_text'>
+                         <div className='para'>
+                         <p>Phone:0788393331</p>
+                        <p>Fox:078839333a</p>
+                         </div>
+                     </div>
+                     </div>
+                     </div>
                  </div>
                  </div>
              )
