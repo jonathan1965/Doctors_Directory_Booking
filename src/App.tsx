@@ -1,12 +1,18 @@
 import React from 'react';
-import DoctorFind from './components/DoctorFind';
 import './App.css';
+import UserContextProvider from './contexts/DoctorContextProvider';
+import DoctorList from './components/DoctorList';
+import { Link } from 'react-router-dom';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-     <DoctorFind/>
-    </div>
+    <UserContextProvider >
+      <div className="App w3-padding-large w3-large">
+        <Header/>
+        <DoctorList/>
+      </div>
+    </UserContextProvider>
   );
 }
 

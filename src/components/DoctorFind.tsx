@@ -48,7 +48,7 @@ const DoctorFind: React.FC =() =>{
                      <div className='info_text'>
                          <div className='para'>
                          <p>Phone:0788393331</p>
-                        <p>Fox:078839333a</p>
+                        <p>Fox:0788393332</p>
                          </div>
                      </div>
                      </div>
